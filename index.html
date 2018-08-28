@@ -5,29 +5,61 @@
 	<link rel="stylesheet" href="style.css">
 	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:600,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<script src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
 </head>
+
+<script>
+	$(document).ready( function() {
+		$('.l1').click( function() {
+			$('html,body').animate({
+				'scrollTop': $('.main').offset().top
+			});
+		});
+
+		
+
+		$('.l2').click( function() {
+			$('html,body').animate({
+				'scrollTop': $('.sec2').offset().top - 90
+			});
+		});
+
+		$('.l3').click( function() {
+			$('html,body').animate({
+				'scrollTop': $('.sec3').offset().top - 90
+			});
+		});
+
+		$('.l4').click( function() {
+			$('html,body').animate({
+				'scrollTop': $('.sec4').offset().top
+			});
+		});
+	});
+</script>
 <body>
 	<div class="main">
 	<div class="img"></div>
 	<div class="header">
-		<div class="logo">Heinz Doofenshmirtz</div>	</div>
-		<div class="tp">Building And Making<br><span style = "color: #017aff;">Modern Designs</span> Fueling <br>Industries.
+		<div class="logo">Heinz Doofenshmirtz</div>	
+
+		<div class="nav"><span class = "l1">Home</span> <span class = "l2">Works</span> <span class="l3">Research</span> <span class="l4">Contact</span></div>	</div>
+		<div class="tp">Building And Making<br><span style = "color: #017aff;">Modern Machines</span> That <br>Revolutionize.
 			
 		</div>
 
 		<div class="division"></div>
 
 		<div class="p">
-			<p>Heinz is busy making his newest machine, so his assistant has tasked  company with the job of rebranding his corporation - to create a design that appeals to the diabolic Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-</p>
+			<p>From destructive robots to duplicating machines, We build machines<br>that have never been seen before. Using the scientific knowledge and unconventional ways of doing stuff and years of experience working <br>on the fields, we use our creativity to build machines.</p>
 		</div>
 	</div>
 
 	<div class="sec2">
 		<div class="tp2">
-			Research Work
+			Our Works
 
-			<p>We need to understand the context in order to use humor properly. <br> Researchers have identified different types of humor.</p>
+			<p>Our years of experience has made us the most powerful competitor in the industry. here are some of our key inventions we made over the years.</p>
 
 		</div>
 
@@ -39,13 +71,13 @@
 					<img src="img2.jpg" alt="">
 				</div>
 
-				<div class="heading2">Build Large Scale Design Systems <br> For Every Start-up Outhere</div><br>
-				<div class="sub">Winner, Scientific award 2018</div>
+				<div class="heading2">A High Frequency Blaster Which <br> Converts Matter Into Fruit Juice.</div><br>
+				<div class="sub">Completed in april 2018. Has Been Tested</div>
 
-				<div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus nobis adipisci sint, ut mollitia ab, ex, ratione quis, dolores sunt numquam explicabo eos impedit officiis illum. Iure odit aperiam explicabo eos impedit officiis!</div>
+				<div class="text">The Juice-inator is a revolutionary blaster which converts matter into juice by striking the surface of the matter with high energy electromagnetic waves. <br>It uses an oscillating system to produced these string waves.</div>
 
 			<div class="bts">
-				<button>VIEW THESIS</button><button style="margin-left: 30px;">DOWNLOAD PAPER</button>
+				<button>VIEW THESIS</button><button style="margin-left: 30px;">VIEW EXPERIMENT</button>
 			</div>
 			</div>
 
@@ -57,13 +89,13 @@
 					<img src="img4.jpg" alt="">
 				</div>
 
-				<div class="heading2">An Oscillating System Which Measures<br> Natural Frequency Accuarately</div><br>
-				<div class="sub">Winner, Exun Innovation Award 2016</div>
+				<div class="heading2">A Gamma Ray Blaster Which Can Easily<br>Destroy Cities In A Few Seconds</div><br>
+				<div class="sub">Completed in april 2013. Not Tested.</div>
 
 				<div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus nobis adipisci sint, ut mollitia ab, ex, ratione quis, dolores sunt numquam explicabo eos impedit officiis illum. Iure odit aperiam explicabo eos impedit officiis!</div>
 
 				<div class="bts">
-				<button>VIEW THESIS</button><button style="margin-left: 30px;">DOWNLOAD PAPER</button>
+				<button>VIEW THESIS</button><button style="margin-left: 30px;">VIEW EXPERIMENT</button>
 			</div>
 			
 
@@ -76,13 +108,13 @@
 					<img src="img8.jpg" alt="">
 				</div>
 
-				<div class="heading2">A Large Scale Hydroplant System<br>Which Supplies Electric Energy </div><br>
-				<div class="sub">$500,000 Funding From tesla</div>
+				<div class="heading2">A High Energy Device That Can Split<br> & Transport Matter To The Beach.</div><br>
+				<div class="sub">Completed In April. Not tested</div>
 
-				<div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus nobis adipisci sint, ut mollitia ab, ex, ratione quis, dolores sunt numquam explicabo eos impedit officiis illum. Iure odit aperiam explicabo eos impedit officiis!</div>
+				<div class="text">The trip-to-the-beach-inator is a device that can transport matter easily over large distances and Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum accusantium cupiditate praesentium qui! Laboriosam illum sed nostrum.</div>
 
 				<div class="bts">
-				<button>VIEW THESIS</button><button style="margin-left: 30px;">DOWNLOAD PAPER</button>
+				<button>VIEW THESIS</button><button style="margin-left: 30px;">VIEW EXPERIMENT</button>
 			</div>
 			
 
@@ -94,7 +126,7 @@
 			<div class="tp2" style="top:140px;">
 			Research Work
 
-			<p>We need to understand the context in order to use humor properly. <br> Researchers have identified different types of humor.</p>
+			<p>We have big plans for the future and we require a strong workforce in order to achieve that. Here are some of our research work.</p>
 
 		</div><br>
 		
@@ -102,21 +134,21 @@
 		<div class="t2">
 			<img src="a1.jpg" alt="">
 
-			<div class="subte">Computer Based Systems</div>
+			<div class="subte">Weapons of platypus destruction</div>
 
-			<div class="ht2">Building A Large Scale <br>Design System For Every<br> Start-up Outhere.</div>
+			<div class="ht2">A Weapon Which Aims <br>Platypuses And Turns <br>Them Into Flowers.</div>
 
-
+ 
 			<div class="te">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate totam quas sit doloremque quis quam id magni, ipsum iure nobis consequuntur! Quia voluptas error quos, temporibus aspernatur molestias incidunt recusandae.</div>
 		</div>
 
 
 		<div class="t2">
-			<img src="a2.jpg" style="width: 43%; left: 57%;" alt="">
+			<img src="a2.jpg" style="width: 43%; top: -20px; left: 57%;" alt="">
 
-			<div class="subte" style="left: 7%;">Computer Based Systems</div>
+			<div class="subte" style="left: 7%;">Weapons Of Destruction</div>
 
-			<div class="ht2" style="left: 7%">Building A Large Scale <br>Design System For Every<br> Start-up Outhere.</div>
+			<div class="ht2" style="left: 7%">A Thunderstorm Inducer<br> Which Can Wipe Out <br> Towns And Cities.</div>
 
 
 			<div class="te" style="left: 7%;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate totam quas sit doloremque quis quam id magni, ipsum iure nobis consequuntur! Quia voluptas error quos, temporibus aspernatur molestias incidunt recusandae.</div>
@@ -126,14 +158,24 @@
 		<div class="t2">
 			<img src="a3.jpg" alt="">
 
-			<div class="subte">Computer Based Systems</div>
+			<div class="subte">Advanced Weapons</div>
 
-			<div class="ht2">Building A Large Scale <br>Design System For Every<br> Start-up Outhere.</div>
+			<div class="ht2">A Snow Blizzard Inducer <br> That Can Be Controlled<br> Easily On Demand</div>
 
 
 			<div class="te">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate totam quas sit doloremque quis quam id magni, ipsum iure nobis consequuntur! Quia voluptas error quos, temporibus aspernatur molestias incidunt recusandae.</div>
 		</div>
 		
+	</div>
+
+	<div class="sec4">
+	<div class="tp2" style="top:140px;">
+			Love Destruction?
+
+			<p>Love destruction as much as we do? If yes then don't hesitate to Shoot us up a message and we will get back to you in a few days. The Information you enter won't be leaked and we promise we won't spam you WITH filler emails.  <br><br><span style = "font-size: 22px;"><span style = "letter-spacing: -5px;"> ---------</span> &nbsp;&nbsp;Get In Touch</span></p>
+
+		</div>
+		</div>
 	</div>
 </body>
 </html><br>
